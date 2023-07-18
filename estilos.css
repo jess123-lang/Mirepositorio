@@ -253,13 +253,12 @@ height: 400px;
 }
 .columnas4{
     display: flex;
-
 }
-   
+  
 
 .parrafo4{
     color: aquamarine;
-    font-size: 50px;
+    font-size: 40px;
     padding-right: 0;
     width: 80%;
     padding: 20px;
@@ -324,6 +323,10 @@ height: 400px;
 .descripcion5-1:hover{
     color: aquamarine;
 }
+.container6{
+    background-color: #fff;
+    height: 400px;
+}
 .columnas6{
     display: flex;
     
@@ -335,11 +338,11 @@ height: 400px;
     height: 300px;
 }
 .video6-1{
-    width: 800px;
-    height: 400px; 
-    padding-left: 55px;
-    padding-right: 20px;
-   
+    width: 600px;
+    
+    padding-left: 60px;
+    padding-right: 10px;
+    padding-top: 0%;
 }
 .a-video6{
   color: #ebabdd;
