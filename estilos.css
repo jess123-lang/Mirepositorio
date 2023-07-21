@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
     width: 100%;
-    padding: 30px;
+    padding: 0px;
 
     
 }
@@ -17,7 +17,6 @@ body {
 .columnalog{
     width: 100%;
     padding-left:0%;
-    
 
 }
 #logo {
@@ -50,7 +49,7 @@ body {
   }
   
   .menu li a {
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
     color:#e0a4d3;
     padding: 6px 12px;
@@ -203,11 +202,11 @@ height: 400px;
     
 }
 .separator {
-    padding-top: 50px;
     border: none;
     border-top: 3px solid rgb(184, 67, 149);
     margin: 80px;
-    width: 91%;
+    width: 85%;
+    height: 0%;
   }
 
   .videoDos{
@@ -219,6 +218,7 @@ height: 400px;
   }
   .container3{
     padding-left: 0px;
+    
   }
   .a-href{
     padding-top: 20px;
@@ -237,6 +237,7 @@ height: 400px;
     
 }
 .container-4{
+
     height: 500px;
 }
 .video4{
@@ -265,7 +266,8 @@ height: 400px;
     padding-top: 0%;
 }
 .container-5{
-    height: 600px;
+    padding-top: 0%;
+    
 }
 .columnas5{
     display: flex;
@@ -282,7 +284,7 @@ height: 400px;
 
 }
  .video-5{
-    width: 640px;
+    width: 600px;
     height: 420px; 
     
  }
@@ -296,9 +298,10 @@ height: 400px;
    color: aquamarine;
  }
  .video5-1{
-    width: 690px;
+    width: 600px;
     height: 427px;
-
+    padding-right: 50px;
+    padding-top: 0%;
     
  }
  
@@ -324,12 +327,15 @@ height: 400px;
     color: aquamarine;
 }
 .container6{
-    background-color: #fff;
-    height: 400px;
+  
+    height: 500px;
 }
 .columnas6{
     display: flex;
     
+}
+.columna1{
+  padding-left: 20pxS; 
 }
 
 .video6{
@@ -338,28 +344,34 @@ height: 400px;
     height: 300px;
 }
 .video6-1{
-    width: 600px;
-    
-    padding-left: 60px;
-    padding-right: 10px;
+    width: 90%;
+    padding-left: 0%;
+    padding-right: 100%;
     padding-top: 0%;
+    
 }
-.a-video6{
+.textoContainer6-1{
   color: #ebabdd;
   text-align: center;
   font-size: 25px;
-  padding: 20px;
-  
+  padding-right: 100%;
+  padding: 20px; 
 }
+
 .a-video6:hover{
     color: aquamarine;
 }
+.columna2{
+   
+    width: 95%;
+}
 .texto6-1{
-    width: 30%;
+    top: 20%;
     color: #ebabdd;
-    text-align: right;
+    text-align: left;
     font-size: 25px;
-     padding-left: 170px;
+     padding-left: 100%;
+    padding-right: 100%;
 }
 .texto6-1:hover{
     color: aquamarine;
@@ -367,29 +379,38 @@ height: 400px;
 .columnasContenerdor7{
     display: flex;
 }
-.img7{
-    width: 900px;
-    height: 600px;
-    padding: 80px;
-    padding-top: 0%;
-    padding-left: 20px;
-    
+.ImagenCon7Parte1{
+    width: 600px;
+    height: 500px;
 }
-.image7{
-    width: 800px;
-    padding-left: 20px;
-    padding-right: 50%;
+.ImagenContain7-2{
+    width: 600px;
+    height: 500px;
+    padding-right: 50px;
+}
+.textoImgVidaSana{
+    width: 600px;
 }
 .txtVidasana{
     color: #ebabdd;
-    font-size: 30px;
+    font-size: 25px;
+    text-align: left;
 }
 .txtVidasana:hover{
     color: aquamarine;
 }
+.ImagenContain7-2{
+    padding-left: 70px;
+}
+.TextoImgComidaSaludable{
+    width: 600px;
+    text-align: right;
+    padding-left: 66px;
+}
 .textFood{
   color: #ebabdd;
-  font-size: 30px;
+  font-size: 25px;
+  padding-left: 70px;
 }
 .textFood:hover{
     color: aquamarine;
@@ -416,12 +437,42 @@ display: flex;
 .columna-1{
     padding-left: 80px;
 }
-.tituloContainer10{
-    font-size: 80px;
-    color: aquamarine;
+.logoCont9-1{
+    height: 200px;
+    width: 200px;
 }
+.logoCont9-2{
+    height: 200px;
+    width: 200px;  
+}
+.logoCont9-3{
+    height: 200px;
+    width: 200px;  
+}
+.logoCont9-4{
+    height: 200px;
+    width: 200px;
+
+}
+.logoCont9-5{
+    height: 200px;
+    width: 200px;
+}
+.logoCont9-6{
+    height: 200px;
+    width: 200px;
+}
+.tituloContainer10{
+    font-size: 70px;
+    color: aquamarine;
+    padding: 20px;
+}
+
 .columnasContainer10{
     display: flex;
+}
+.col1{
+    padding: 20px;
 }
 .parrafoContainer10{
     color: #ebabdd;
@@ -439,12 +490,12 @@ display: flex;
     color: #ebabdd;
     font-size: 30px;
     width: 200px;
-    padding-left: 300px;
+    padding-left: 250px;
 }
 .textSiguenos{
     color: #ebabdd;
     font-size: 30px;
-    padding-left: 80px;
+    padding-left: 75px;
     width: 200px;
 }
 .textoFinal{
@@ -452,3 +503,915 @@ display: flex;
     font-size: 30px;
     text-align: center;
 }
+
+
+@media(max-width: 768px){
+    .containerlogmenu{
+        height: 100px;
+        width:50%;
+        padding-right: 30%;
+    }
+    .columnaslogmenu{
+        display: flex;
+    }
+    .columnalog{
+        width: 90%;
+        padding-left:0%;
+    
+    }
+    #logo {
+        width: 60px;
+        vertical-align: middle;
+        padding-top: px;
+        padding-left: 14px;
+      
+    }
+    .columnamenu{
+        width: 100%;
+        padding-right: 20%;
+    }
+    .menu {
+        width: 160%;
+        text-align: right;
+        padding-top: 40px;
+      }
+      
+      .menu ul {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .menu li {
+        display: inline-block;
+        margin-right: 0px;
+      }
+      
+      .menu li a {
+        font-size: 18px;
+        text-decoration: none;
+        color:#e0a4d3;
+        padding: 2px 4px;
+        
+      }
+      
+      .menu li a:hover {
+        background-color: #61044a;
+        color: #fff;
+      }
+      .containermarquee{
+        height: 100px;
+    
+    }
+    .marquee-w {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 170px;
+        bottom: 200px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        top: 100px;
+        padding-bottom: 60px;
+        
+    }
+    .marquee {
+        position: absolute;
+        display: block;
+        margin: 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        min-width: 100%;
+        height: 100px;
+    }
+    
+    .marquee span {
+        display: inline-block;
+        padding-left: 100%;
+        text-align: center;
+        -webkit-text-stroke: 2px #e0a4d3;
+        white-space: nowrap;
+        min-width: 100%;
+        height: 100px;
+        line-height: 120px;
+        font-size: 70px;
+        animation: marquee 20s linear infinite;
+       
+    }
+    
+    .marquee2 span {
+        animation-delay: 10s;
+    }
+    
+    .marquee3 span {
+        animation-delay: 10s;
+    }
+    
+    @keyframes marquee {
+        0% {
+            transform: translate(0, 0);
+        }
+        100% {
+            transform: translate(-100%, 0);
+        }
+    }
+    .marquee-y {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 90px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        top: 0%;
+       height: 300px;
+    }
+      
+      .marqueeDos {
+        position: absolute;
+        display: block;
+        margin: 0%;
+        white-space: nowrap;
+        overflow: hidden;
+        min-width: 100%;
+        height: 1000px;
+        
+    }
+      
+      .marqueeDos span {
+        display:inline-flex;
+        padding-left: 100%;
+        padding-top: 0%;
+        text-align: center;
+        -webkit-text-stroke: 2px #e0a4d3;
+        white-space: nowrap;
+        min-width: 100%;
+        height: 100%;
+        line-height: 90px;
+        font-size: 70px;
+        animation: marqueeDos 20s linear infinite;
+     
+       
+    }
+      
+      .marqueeB span {
+        animation-delay: 10s;
+      }
+      
+      .marqueeC span {
+        animation-delay: 10s;
+      }
+      @keyframes marqueeDos {
+        0% {
+            transform: translate(-100%, 0);
+        }
+        100% {
+            transform: translate(0%, 0);
+        }
+    }
+    .parrafo-1 {
+        color: #ebabdd;
+        font-size: 17px;
+        padding: 20px;
+        text-align: left;
+        padding-right: 40%;
+        padding-left: 5%;
+        width: 50%;
+        padding-top: 20px;
+      }
+      .cont-texinicialpag{
+        height: 200px;
+      }
+      .textoUno{
+        padding-top: 70px;
+      }
+     
+      .videoInicio{
+        width: 55%;
+        height: 80%;
+        z-index: 0; 
+        padding-top: 90px;   
+    }
+    .separator {
+        border: none;
+        border-top: 3px solid rgb(184, 67, 149);
+        margin: 50px;
+        width: 50%;
+        height: 0%;
+       
+      }
+      .videoDos{
+        width: 50%;
+        height: 200px;
+        
+      }
+      .a-href{
+        width: 300px;
+      }
+      .a-href1{
+        font-size: 20px;
+        width: 10px;
+      }
+      .container-4{
+       
+       padding-bottom: 0%;
+       height: 400px;
+      }
+      .columnas4{
+        display: grid;
+        height: 400px;
+        
+      }
+      .parrafo4{
+        font-size: 20px;
+        width: 200px;
+      }
+      .video4{
+     
+      height: 10px;
+      
+      }
+      .videoCuatro{
+        width: 57%;
+        height: 400px;
+        
+      }
+      .container-5{
+
+        height: 700px;
+      }
+      .columnas5{
+        display: grid;  
+      }
+      .columna1Container5{
+        height: 300px;
+        width: 200px;
+        padding-right: 20%;
+        
+      }
+      .video-5{
+        width:400px;
+        height: 300px;
+        
+      }
+      .descripcion5{
+        font-size: 20px;
+
+      }
+      .divText5{
+        width: 300px;
+        padding-top: 0%;
+      }
+     .columna2Container5{
+        padding-right: 20%;
+        width: 300px;
+     }
+      .video5-1{
+        width: 410px;
+        height: 300px;
+        padding-top: 60px;
+
+      }
+      .descripcion5-1{
+        font-size: 20px;
+        padding-left: 0%;
+        padding-top: 0%;
+      }
+      .divTexto5-1{
+       width: 300px;
+        padding-top: 0%;
+      }
+      .container6{
+      height: 730px;
+      width: 80%;
+      }
+      .columnas6{
+        display: grid;
+      }
+      .columna1{
+       padding: 15px;
+       height: 300px;
+       width: 400px;
+      }
+      .video6{
+        width: 370px;
+        height: 230px;
+        padding: 25px;
+      }
+      .textoContainer6-1{
+        font-size: 20px;
+        padding-left: 0%;
+        text-align: left;
+     
+      }
+      .columna2{
+        padding: 15px;
+        height: 300px;
+        width: 400px;
+      }
+      .video6-1{
+        width: 400px;
+        height: 300px;
+        padding: 20px;
+        
+      }
+      .texto6-1{
+        font-size: 20px;
+        padding-left: 0%;
+        text-align: left;
+      }
+      .text6{
+        width: 400px;
+      }
+      .container7{
+       height: 860px;
+      }
+      .columnasContenerdor7{
+        display: grid;
+      }
+      
+      .ImagenCon7Parte1{
+        width: 400px;
+        height: 300px;
+        padding: 20px;
+      }
+      .textoImgVidaSana{
+        width: 450px;
+        padding: 20px;
+      }
+      .txtVidasana{
+        font-size: 20px;
+        padding-left: 0%;
+        text-align: left;
+       
+      }
+      .imagenCont7{
+        width: 40%;
+      }
+      .ImagenContain7-2{
+        width: 400px;
+        height: 300px;
+        padding: 20px;
+      }
+      .TextoImgComidaSaludable{
+        padding: 15px;
+        height: 300px;
+        width: 400px; 
+        text-align: left;
+      }
+      .textFood{
+        font-size: 20px;
+        padding-left: 0%;
+        text-align: left;
+      }
+      
+      .tiuloContainer8{
+        font-size: 30px;
+        width: 300px;
+      }
+      .parrafoContainer8{
+        font-size: 20px;
+        width: 350px;
+        padding-bottom: 0%;
+      }
+      
+      .colum-1{
+        display: grid;
+        padding-left: 17%;
+      }
+      .colum-2{
+        display: grid;
+        
+      }
+      .logoCont9-1{
+        width: 100px;
+        height: 100px;
+      }
+      .logoCont9-2{
+        width: 100px;
+        height: 100px;
+      }
+      .logoCont9-3{
+        width: 100px;
+        height: 100px;
+      }
+      .logoCont9-4{
+        width: 100px;
+        height: 100px;
+      }
+      .logoCont9-5{
+        width: 100px;
+        height: 100px;
+      }
+      .logoCont9-6{
+        width: 100px;
+        height: 100px;
+      }
+      .container10{
+       text-align: left;
+      }
+      .tituloContainer10{
+        font-size: 30px;
+      }
+      .columnasContainer10{
+        text-align: center;
+        display: grid;
+      }
+      .parrafoContainer10{
+        font-size: 20px;
+      }
+      .contacto{
+       text-align: left;
+       padding-right: 50%;
+       width: 10px;
+      }
+      .divContacto{
+        font-size: 20px;
+        padding-left: 20px;
+      }
+      .visita{
+        text-align: left;
+        width: 55%;
+      }
+      .TextVisita{
+        font-size: 20px;
+        text-align: left;
+        width: 40px;
+        padding-left: 20px;
+      }
+      .divSiguenos{
+        text-align: left;
+        width: 45%;
+      }
+      .textSiguenos{
+        font-size: 20px;
+        text-align: left;
+        padding-left: 20px;
+      }
+      .textoFinal{
+        font-size: 20px;
+        text-align: left;
+        padding-left: 20px;
+      }
+}
+
+
+
+
+@media(max-width: 360px){
+    .containerlogmenu{
+        height: 100px;
+        width:50%;
+        padding-right: 30%;
+    }
+    .columnaslogmenu{
+        display: flex;
+    }
+    .columnalog{
+        width: 100%;
+        padding-left:0%;
+    
+    }
+    #logo {
+        width: 50px;
+        vertical-align: middle;
+        padding-top: px;
+        padding-left: 14px;
+      
+    }
+    .columnamenu{
+        width: 100%;
+        padding-right: 20%;
+    }
+    .menu {
+        width: 290%;
+        text-align: right;
+        padding-top: 40px;
+        
+      }
+      
+      .menu ul {
+        margin: 0;
+        padding: 0;
+      }
+      
+      .menu li {
+        display: inline-block;
+        margin-right: 0px;
+      }
+      
+      .menu li a {
+        font-size: 12px;
+        text-decoration: none;
+        color:#e0a4d3;
+        padding: 2px 4px;
+        
+      }
+      
+      .menu li a:hover {
+        background-color: #61044a;
+        color: #fff;
+      }
+      .containermarquee{
+        height: 100px;
+    
+    }
+    .marquee-w {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 170px;
+        bottom: 200px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        top: 100px;
+        padding-bottom: 60px;
+        
+    }
+    .marquee {
+        position: absolute;
+        display: block;
+        margin: 0px;
+        white-space: nowrap;
+        overflow: hidden;
+        min-width: 100%;
+        height: 100px;
+    }
+    
+    .marquee span {
+        display: inline-block;
+        padding-left: 100%;
+        text-align: center;
+        -webkit-text-stroke: 2px #e0a4d3;
+        white-space: nowrap;
+        min-width: 100%;
+        height: 100px;
+        line-height: 125px;
+        font-size: 60px;
+        animation: marquee 20s linear infinite;
+       
+    }
+    
+    .marquee2 span {
+        animation-delay: 10s;
+    }
+    
+    .marquee3 span {
+        animation-delay: 10s;
+    }
+    
+    @keyframes marquee {
+        0% {
+            transform: translate(0, 0);
+        }
+        100% {
+            transform: translate(-100%, 0);
+        }
+    }
+    .marquee-y {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 90px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        overflow: hidden;
+        top: 0%;
+       height: 300px;
+    }
+      
+      .marqueeDos {
+        position: absolute;
+        display: block;
+        margin: 0%;
+        white-space: nowrap;
+        overflow: hidden;
+        min-width: 100%;
+        height: 1000px;
+        
+    }
+      
+      .marqueeDos span {
+        display:inline-flex;
+        padding-left: 100%;
+        padding-top: 0%;
+        text-align: center;
+        -webkit-text-stroke: 2px #e0a4d3;
+        white-space: nowrap;
+        min-width: 100%;
+        height: 100%;
+        line-height: 50px;
+        font-size: 60px;
+        animation: marqueeDos 20s linear infinite;
+     
+       
+    }
+      
+      .marqueeB span {
+        animation-delay: 10s;
+      }
+      
+      .marqueeC span {
+        animation-delay: 10s;
+      }
+      @keyframes marqueeDos {
+        0% {
+            transform: translate(-100%, 0);
+        }
+        100% {
+            transform: translate(0%, 0);
+        }
+    }
+    .parrafo-1 {
+        color: #ebabdd;
+        font-size: 13px;
+        padding: 20px;
+        text-align: left;
+        padding-right: 40%;
+        padding-left: 5%;
+        width: 80%;
+        padding-top: 20px;
+      }
+      .cont-texinicialpag{
+        height: 200px;
+      }
+      .textoUno{
+        padding-top: 30px;
+      }
+     
+      .videoInicio{
+        width: 80%;
+        height: 160px;
+        z-index: 0; 
+        padding-top: 0px;  
+    }
+    .separator {
+        border: none;
+        border-top: 3px solid rgb(184, 67, 149);
+        margin: 50px;
+        width: 50%;
+        height: 0%;
+       
+      }
+      .videoDos{
+        width: 70%;
+        height: 200px;
+        
+      }
+      .a-href{
+        width: 260px;
+      }
+      .a-href1{
+        font-size: 15px;
+        width: 10px;
+      }
+      .container-4{
+       padding-bottom: 0%;
+       height: 300px;
+      }
+      .columnas4{
+        display: grid;
+        height: 400px;
+        
+      }
+      .parrafo4{
+        font-size: 15px;
+        width: 200px;
+      }
+      .video4{
+      height: 10px;
+      
+      }
+      .videoCuatro{
+        width: 80%;
+        height: 170px;
+        
+      }
+      .container-5{
+        height: 450px;
+      }
+      .columnas5{
+        display: grid;  
+      }
+      .columna1Container5{
+        height: 180px;
+        width: 200px;
+        padding-right: 20%;
+        padding-top: 0%;
+      }
+      .video-5{
+        width:270px;
+        height: 200px;
+    
+      }
+      .descripcion5{
+        font-size: 15px;
+
+      }
+      .divText5{
+        width: 300px;
+        padding-top: 0%;
+      }
+     .columna2Container5{
+        padding-right: 20%;
+        width: 300px;
+        height: 300px;
+        
+     }
+      .video5-1{
+        width: 280px;
+        height: 140px;
+        padding-top: 100px;
+      }
+      .descripcion5-1{
+        font-size: 15px;
+        padding-left: 0%;
+        padding-top: 0%;
+      }
+      .divTexto5-1{
+       width: 300px;
+        padding-top: 0%;
+      }
+      .container6{
+      height: 500px;
+      width: 80%;
+      }
+      .columnas6{
+        display: grid;
+      }
+      .columna1{
+       padding: 15px;
+       height: 200px;
+       width: 300px;
+      
+      }
+      .video6{
+        width: 250px;
+        height: 130px;
+        padding: 25px;
+        
+      }
+      .textoContainer6-1{
+        font-size: 15px;
+        padding-left: 0%;
+        text-align: left;
+        width: 20px;
+     
+      }
+      .columna2{
+        padding: 15px;
+        height: 300px;
+        width: 400px;
+      }
+      .text6{
+        width: 300px;
+      }
+
+      .video6-1{
+        width: 260px;
+        height: 150px;
+        padding: 20px;
+        
+      }
+      .texto6-1{
+        font-size: 15px;
+        padding-left: 0%;
+        text-align: left;
+      
+      }
+      
+      .container7{
+       height: 650px;
+      }
+      .columnasContenerdor7{
+        display: grid;
+      }
+      
+      .ImagenCon7Parte1{
+        width: 270px;
+        height: 200px;
+        padding: 20px;
+      }
+      .textoImgVidaSana{
+        width: 293px;
+        padding: 20px;
+      }
+      .txtVidasana{
+        font-size: 15px;
+        padding-left: 0%;
+        text-align: left;
+       
+      }
+      .imagenCont7{
+        width: 40%;
+      }
+      .ImagenContain7-2{
+        width: 260px;
+        height: 200px;
+        padding: 20px;
+      }
+      .TextoImgComidaSaludable{
+        padding: 15px;
+        height: 300px;
+        width: 260px; 
+        text-align: left;
+      }
+      .textFood{
+        font-size: 15px;
+        padding-left: 0%;
+        text-align: left;
+      }
+      
+      .tiuloContainer8{
+        font-size: 20px;
+        width: 250px;
+      }
+      .parrafoContainer8{
+        font-size: 15px;
+        width: 200px;
+        padding-bottom: 0%;
+      }
+      
+      .colum-1{
+        display: grid;
+        padding-left: 17%;
+      }
+      .colum-2{
+        display: grid;
+        
+      }
+      .logoCont9-1{
+        width: 80px;
+        height: 80px;
+      }
+      .logoCont9-2{
+        width: 80px;
+        height: 80px;
+      }
+      .logoCont9-3{
+        width: 80px;
+        height: 80px;
+      }
+      .logoCont9-4{
+        width: 80px;
+        height: 80px;
+      }
+      .logoCont9-5{
+        width: 80px;
+        height: 80px;
+      }
+      .logoCont9-6{
+        width: 80px;
+        height: 80px;
+      }
+      .container10{
+       text-align: left;
+      }
+      .tituloContainer10{
+        font-size: 30px;
+      }
+      .columnasContainer10{
+        text-align: center;
+        display: grid;
+      }
+      .parrafoContainer10{
+        font-size: 15px;
+        width: 200px;
+      }
+      .contacto{
+       text-align: left;
+       padding-right: 50%;
+       width: 10px;
+      }
+      .divContacto{
+        font-size: 15px;
+        padding-left: 20px;
+      }
+      .visita{
+        text-align: left;
+        width: 55%;
+      }
+      .TextVisita{
+        font-size: 15px;
+        text-align: left;
+        width: 40px;
+        padding-left: 20px;
+      }
+      .divSiguenos{
+        text-align: left;
+        width: 45%;
+      }
+      .textSiguenos{
+        font-size: 15px;
+        text-align: left;
+        padding-left: 20px;
+      }
+      .textoFinal{
+        font-size: 15px;
+        text-align: left;
+        padding-left: 20px;
+      }
+}
+
+
